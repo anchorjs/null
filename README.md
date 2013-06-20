@@ -9,8 +9,6 @@ unsupported runtime.
 
     $ volo add anchorjs/null
 
-For more information on using volo to manage JavaScript modules, visit [http://volojs.org/](http://volojs.org/).
-
 ## Usage
 
 #### Configure
@@ -54,18 +52,14 @@ is executed.
 
 ## Tests
 
-##### Browser
-
 To run tests in a browser, execute the Make target for the desired browser:
 
     $ make test-chrome
     $ make test-firefox
     $ make test-safari
-
-##### PhantomJS
-
-To run headless tests from a terminal using [PhantomJS](http://phantomjs.org/):
-
+    
+Headless tests can be executed directly from a terminal:
+    
     $ make test-phantomjs
 
 ## Credits
